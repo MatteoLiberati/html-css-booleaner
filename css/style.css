@@ -45,3 +45,29 @@ header {
   font-size: 12px;
   margin-bottom: 15px;
 }
+
+.highlighted {
+  background-color: yellow;
+}
+
+.list > ul {
+  padding: 25px 0px;
+}
+
+thead {
+  background-color: #2bade6;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tablewidth {
+  width: 25%;
+}
+
+.btablebody {
+  background-color: #b1e5f2;
+}
