@@ -3,20 +3,21 @@
 }
 
 #testata {
-  height: 80px;
+  height: 100px;
   background-color: #4ea0ff;
   background-image: url("../img/pattern.png");
-  background-size: contain;
+  background-size: 20%;
 }
 
 .container {
   width: 60%;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .container > img {
   width: 200px;
-  padding: 25px 2px 0px;
+  padding: 40px 2px 0px;
 }
 
 header {
@@ -52,10 +53,11 @@ header {
 
 .list > ul {
   padding: 25px 0px;
+  list-style-position: inside;
 }
 
 thead {
-  background-color: #2bade6;
+  background-color: #20a9e5;
   color: white;
 }
 
@@ -71,4 +73,27 @@ table {
 
 .btablebody {
   background-color: #b1e5f2;
+}
+
+.interessi {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.imginteressi {
+  height: 180px;
+  width: 250px;
+  margin-top: 12px;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+
+#imgmonitor {
+  background-image: url(../img/monitor.jpg);
+}
+
+#imggrafico {
+  background-image: url(../img/graph.jpg);
 }
