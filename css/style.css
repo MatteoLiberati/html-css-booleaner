@@ -22,3 +22,19 @@
 header {
   font-size: 25px;
 }
+
+.fontgrey {
+  color: grey;
+}
+
+#scrittore {
+  font-size: 22px;
+}
+
+#scrittore > span {
+  color: #2bade6;
+}
+
+#data-articolo {
+  font-size: 12px;
+}
