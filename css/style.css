@@ -20,6 +20,7 @@
 }
 
 header {
+  padding-top: 11px;
   font-size: 25px;
 }
 
@@ -37,4 +38,10 @@ header {
 
 #data-articolo {
   font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.didascalia-foto {
+  font-size: 12px;
+  margin-bottom: 15px;
 }
