@@ -9,12 +9,16 @@
   background-size: contain;
 }
 
-.logo-container {
-  width: 70%;
+.container {
+  width: 60%;
   margin: auto;
 }
 
-.logo-container > img {
+.container > img {
   width: 200px;
   padding: 25px 2px 0px;
+}
+
+header {
+  font-size: 25px;
 }
