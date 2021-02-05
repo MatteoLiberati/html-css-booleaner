@@ -9,12 +9,14 @@
   background-size: 20%;
 }
 
+/*CONTENITORE*/
 .container {
   width: 60%;
   margin: auto;
   margin-bottom: 30px;
 }
 
+/*LOGO*/
 .container > img {
   width: 200px;
   padding: 40px 2px 0px;
