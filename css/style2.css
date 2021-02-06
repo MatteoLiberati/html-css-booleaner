@@ -1,46 +1,118 @@
 * {
   margin: 0;
   color: white;
+  font-family: "Merriweather", serif;
 }
 
+/*SFONDO TOTALE*/
 body {
   background-image: url("https://cdn.pixabay.com/photo/2015/05/15/14/38/computer-768608_960_720.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
-header {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-header > div {
-  display: inline-block;
-}
-
-main {
+/*LOGO GIORNALE*/
+header .container {
   width: 70%;
   margin: auto;
 }
 
-main::after {
-  content: " ";
-  display: table;
+/*TITOLO ARTICOLO E DATA*/
+.titolo {
+  font-size: 28px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*CONTENITORE PRINCIPALE*/
+main {
+  width: 70%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*FOTO E DIDASCALIA FOTO*/
+main section:first-child {
   clear: both;
+  display: table;
+  content: "";
+  margin: auto;
 }
 
-section > img:first-child {
-  float: right;
-}
-
-section img:nth-child(2) {
+main section img:first-child {
   float: left;
 }
 
-section {
-  background-color: rgba(0, 0, 0, 0.3);
+main section img:nth-child(2) {
+  float: left;
 }
 
-main > section > p:first-child {
-  margin-top: 350px;
+.didascalia-foto {
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  transform: translate(-50%, 0);
+  text-shadow: 2px 2px grey;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*TESTO*/
+p {
+  margin: 2%;
+}
+
+/*UNORDER LIST*/
+ul {
+  margin: 2% 0%;
+}
+
+/*STYLE TABELLA*/
+table {
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+}
+
+tr td:nth-child(3) {
+  width: 70%;
+}
+
+/*SEZIONE INTERESSI*/
+.interessi {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.fontgrey {
+  width: 100%;
+}
+
+.imginteressi {
+  text-shadow: 2px 2px black;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  border: 1px solid grey;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#imgmonitor {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_960_720.jpg");
+}
+
+#imggrafico {
+  background-image: url("https://cdn.pixabay.com/photo/2014/12/08/21/25/business-561388_960_720.jpg");
 }
