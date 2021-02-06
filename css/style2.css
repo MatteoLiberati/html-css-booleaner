@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  color: white;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/05/15/14/38/computer-768608_960_720.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+header > div {
+  display: inline-block;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+}
+
+main::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+section > img:first-child {
+  float: right;
+}
+
+section img:nth-child(2) {
+  float: left;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+main > section > p:first-child {
+  margin-top: 350px;
+}

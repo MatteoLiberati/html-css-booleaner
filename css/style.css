@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-#testata {
+header {
   height: 100px;
   background-color: #4ea0ff;
   background-image: url("../img/pattern.png");
